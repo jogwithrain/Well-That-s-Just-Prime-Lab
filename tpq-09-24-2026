@@ -1,0 +1,7 @@
+1.)How might you solve this using a loop instead of recursion? Would this be easier or harder?
+I would create a vector with the most common prime numbers and have a for-each loop to see if able to divide by the number and then go down the list until it equals 1. Each division would go into a vector.
+I feel like the loop method would be easier since recursion requires breaking it down into smaller problems, and there are a lot of prime numbers.
+
+2.)Using recursion often involves breaking a problem up into smaller "subproblems". How did you apply this concept here, and how did you determine what your base case should be?
+I started off with a base problem, and then the smaller problems being if said number is divisible by these prime numbers(2,3,5,7,11,13,17,etc-). If the number is divisible, that number starts the recursive call
+until it gets to 1, at which the function returns the vector.
